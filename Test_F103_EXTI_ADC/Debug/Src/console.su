@@ -1,0 +1,5 @@
+../Src/console.c:14:6:uart1_init	4	static
+../Src/console.c:35:6:uart1_tx	16	static
+../Src/console.c:42:6:uart1_rx	4	static
+../Src/console.c:49:6:uart1_print	16	static
+../Src/console.c:55:5:_write	32	static

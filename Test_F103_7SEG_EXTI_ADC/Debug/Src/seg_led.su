@@ -1,0 +1,7 @@
+../Src/seg_led.c:68:6:seg_led_gpio_init	4	static
+../Src/seg_led.c:95:6:seg_led_digit_off_all	4	static
+../Src/seg_led.c:100:6:seg_led_digit_on	16	static
+../Src/seg_led.c:122:6:seg_led_write	24	static
+../Src/seg_led.c:146:6:seg_led_display_number	16	static
+../Src/seg_led.c:159:6:delay_ms	24	static
+../Src/seg_led.c:167:6:SysTick_Handler	8	static

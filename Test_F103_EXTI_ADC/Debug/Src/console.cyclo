@@ -1,0 +1,5 @@
+../Src/console.c:14:6:uart1_init	1
+../Src/console.c:35:6:uart1_tx	2
+../Src/console.c:42:6:uart1_rx	2
+../Src/console.c:49:6:uart1_print	2
+../Src/console.c:55:5:_write	2

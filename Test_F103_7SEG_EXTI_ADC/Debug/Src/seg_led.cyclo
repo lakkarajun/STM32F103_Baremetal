@@ -1,0 +1,7 @@
+../Src/seg_led.c:68:6:seg_led_gpio_init	1
+../Src/seg_led.c:95:6:seg_led_digit_off_all	1
+../Src/seg_led.c:100:6:seg_led_digit_on	5
+../Src/seg_led.c:122:6:seg_led_write	5
+../Src/seg_led.c:146:6:seg_led_display_number	2
+../Src/seg_led.c:159:6:delay_ms	2
+../Src/seg_led.c:167:6:SysTick_Handler	2
