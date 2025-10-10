@@ -50,6 +50,12 @@ void PC13_LED_Init(void)
 	GPIOC_CRH |= (0x1 << 20);  // MODE13 = Output 10MHz, CNF=00 push-pull
 }
 
+/* GPIO PC13 - On Board LED Toggle */
+void PC13_LED_Toggle(void)
+{
+	GPIOC_ODR ^= (1 << 13);  // Toggle LED
+}
+
 /* ------------------- EXTI0 ISR ------------------- */
 void EXTI0_IRQHandler(void)
 {

@@ -1,3 +1,4 @@
 ../Src/exti.c:17:6:EXTI_PA0_Init	4	static
 ../Src/exti.c:43:6:PC13_LED_Init	4	static
-../Src/exti.c:54:6:EXTI0_IRQHandler	16	static
+../Src/exti.c:54:6:PC13_LED_Toggle	4	static
+../Src/exti.c:60:6:EXTI0_IRQHandler	16	static

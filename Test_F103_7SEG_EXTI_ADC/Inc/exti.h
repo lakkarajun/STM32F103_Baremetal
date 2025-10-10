@@ -10,6 +10,7 @@
 
 void EXTI_PA0_Init(void);
 void PC13_LED_Init(void);
+void PC13_LED_Toggle(void);
 void EXTI0_IRQHandler(void);
 
 #endif /* EXTI_H_ */

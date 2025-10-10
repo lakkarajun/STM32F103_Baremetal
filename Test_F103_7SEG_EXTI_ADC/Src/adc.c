@@ -7,6 +7,7 @@
 
 #include <stdio.h>
 #include "stm32f103x.h"
+#include "exti.h"
 
 #define DEBUG_ADC	0
 
@@ -60,6 +61,9 @@ uint32_t ADC1_Read(void)
     volt_mV = (raw_adc * 3300UL) / 4095UL;
     if (DEBUG_ADC)
     	printf("%s(): ADC: %u, Voltage :%lu mV\r\n", __func__, raw_adc, volt_mV);
+
+    /* Toggle on Board LED */
+    PC13_LED_Toggle();
 
     return volt_mV;
 }
