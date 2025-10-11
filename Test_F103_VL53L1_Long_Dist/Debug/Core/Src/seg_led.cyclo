@@ -1,0 +1,7 @@
+../Core/Src/seg_led.c:54:6:seg_led_gpio_init	1
+../Core/Src/seg_led.c:79:6:seg_led_digit_off_all	1
+../Core/Src/seg_led.c:84:6:seg_led_digit_on	5
+../Core/Src/seg_led.c:106:6:seg_led_write	5
+../Core/Src/seg_led.c:131:6:seg_led_display_number	2
+../Core/Src/seg_led.c:143:6:seg_led_display_update	1
+../Core/Src/seg_led.c:153:6:seg_led_digit_change	2
